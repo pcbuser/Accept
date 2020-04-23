@@ -32,7 +32,7 @@ public void accept(HttpServletRequest request, HttpServletResponse response)
      public void cancel(@RequestBody AcceptCanceled acceptCanceled) {
          AcceptProcessing acceptProcessing = new AcceptProcessing();
 
-         System.out.println("log2 : "+acceptCanceled.getId());
+         //System.out.println("log2 : "+acceptCanceled.getId());
          acceptProcessing.setId(acceptCanceled.getId());
          acceptProcessing.setStatus(acceptCanceled.getStatus());
 
