@@ -13,7 +13,7 @@ import java.util.Date;
  */
 
 //@FeignClient(name="Repair", url="http://localhost:8082")
-  @FeignClient(name="Repair", url="http://Repair:8080")
+  @FeignClient(name="Repair", url="http://repairprocessings:8080")
 public interface RepairProcessingService {
 
     //@RequestMapping(method= RequestMethod.PATCH, path="/repairProcessings")
